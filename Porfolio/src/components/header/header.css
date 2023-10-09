@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Datos {
+    display: flex;
+    font-size: 1.3em;
+    justify-content: space-evenly; 
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(190, 5, 190);
+    font-weight: 500;
+    text-decoration: none;
+
+    
+}
+
+.Datos a {
+    color: rgb(190, 5, 190);
+    text-decoration: none;
+}
+
+.Datos{
+    height: 80px;
+}
+
+.Datos a > p {
+    margin-right: 12px;
+}
+
+.Datos a > p:hover{
+    text-decoration: underline;
+    box-shadow: 0 0 50px rgb(161, 2, 161);
+    background-color: rgb(51, 6, 51);
+}
